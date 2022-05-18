@@ -21,4 +21,4 @@ async def anti_flood(*args, **kwargs):
 
 if __name__ == "__main__":
     from handlers.commands import dp
-    executor.start_polling(dp, on_startup=send_to_admin)
+    executor.start_polling(dp, on_startup=send_to_admin, skip_updates=True)

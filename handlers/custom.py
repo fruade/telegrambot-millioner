@@ -7,7 +7,6 @@ from states.state import Game_state
 from .commands import menu
 from data.data import data_questions
 from aiogram.types import ReplyKeyboardRemove
-#shuffle(data_questions)
 
 
 @dp.message_handler(text='Играть', state=None)

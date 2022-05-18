@@ -1,5 +1,3 @@
-import random
-
 data_questions = [
     {
         'questions': 'Что растёт в огороде?',
